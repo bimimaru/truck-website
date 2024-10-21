@@ -7,7 +7,9 @@ export function Header() {
     return (
         <div className={styles.header}>
             <div className={styles.bgImg}>
-                <img className={styles.bgImg} src="https://res.cloudinary.com/total-dealer/image/upload/v1687754017/test/ford-ranger_rd5m4t.jpg" />
+                <img className={styles.bgImg}
+                    alt="The Truck"
+                    src="https://res.cloudinary.com/total-dealer/image/upload/v1687754017/test/ford-ranger_rd5m4t.jpg" />
             </div>
             <div className={styles.content}>
                 <h1 className={styles.heading} >

@@ -1,6 +1,6 @@
 import React from "react"
 import { useState } from "react"
-import { Card, CardProps } from "../Card/Card"
+import { Card } from "../Card/Card"
 import styles from './Body.module.css'
 
 
@@ -16,7 +16,7 @@ const items = [
         heading: "Heading 2"
     },
     {
-        content: "Simply dummy text of the printing and typesetting industry. Lorem had ceased to been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley. Simply dummy text of the printing and typesetting industry.",
+        content: "Simply dummy text of the printing and typesetting industry. Lorem had ceased to been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley. Simply dummy text of the printing and typesetting industry. the 1500s, when an unknown printer took a galley. Simply dummy text of the printing and typesetting industrythe 1500s, when an unknown printer took a galley. Simply dummy text of the printing and typesetting industry",
         buttonContent: "Button 3",
         heading: "Heading 3"
     },

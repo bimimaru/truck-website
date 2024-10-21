@@ -1,7 +1,6 @@
 import React from "react";
 import styles from "./Card.module.css"
 import { CardButton } from "./CardButton/CardButton";
-import { PropsWithChildren } from "react";
 
 export type CardProps = {
     heading: string;
@@ -17,7 +16,9 @@ export function Card({ heading, content, buttonContent, isSelected, onClick }: C
     return (
         <div className={`${styles.card} ${isSelected ? styles.selectedCard : ""}`}>
             <div className={styles.img}>
-                <img className={styles.img} src="https://res.cloudinary.com/total-dealer/image/upload/v1687754017/test/brisbane_vgpzva.jpg" />
+                <img className={styles.img}
+                    alt="The Bridge"
+                    src="https://res.cloudinary.com/total-dealer/image/upload/v1687754017/test/brisbane_vgpzva.jpg" />
             </div>
             <div className={styles.text}>
                 <h2>
