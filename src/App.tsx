@@ -8,6 +8,7 @@ export default function App() {
     <div>
       <Header />
       <Body />
+      <h2>To map dit</h2>
     </div >
   );
 }
