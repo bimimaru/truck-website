@@ -1,5 +1,5 @@
 import React from "react";
-import styles from './CardButton.module.css';
+import styles from './CardButton.module.scss';
 
 type CardButtonProps = React.PropsWithChildren & { onClick: () => void }
 

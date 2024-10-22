@@ -1,19 +1,26 @@
+$padding: 10px 36px;
+$gap: 10px;
+$border-radius: 20px;
+$font-size: 16px;
+$font-weight: 700;
+
+
+
 .button {
     display: flex;
     background-color: rgb(3, 102, 194);
-    padding: 10px 36px;
+    padding: $padding;
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    gap: 10px;
-    border-radius: 20px;
+    gap: $gap;
+    border-radius: $border-radius;
     min-width: fit-content;
     border: none;
     outline: none;
 
     font-family: Georgia, 'Times New Roman', Times, serif;
     color: white;
-    font-size: 16px;
-    font-weight: 700;
-
+    font-size: $font-size;
+    font-weight: $font-weight
 }

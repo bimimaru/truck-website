@@ -1,7 +1,7 @@
 import React from "react"
 import { useState } from "react"
 import { Card } from "../Card/Card"
-import styles from './Body.module.css'
+import styles from './Body.module.scss'
 
 
 const items = [

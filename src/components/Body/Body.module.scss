@@ -1,9 +1,11 @@
+$gap : 40px;
+$padding: 40px;
+
 .body {
     display: flex;
     flex-direction: row;
-    gap: 40px;
-    padding: 40px;
+    gap: $gap;
+    padding: $padding;
     justify-content: center;
-
     flex-wrap: wrap;
 }
